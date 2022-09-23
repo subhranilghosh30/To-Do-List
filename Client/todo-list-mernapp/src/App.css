@@ -1,0 +1,108 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  background-color: #72b2e4;
+  width: 604px;
+  height: 403px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+body{
+  background-image: url("ima.jpg");
+  padding: 100px 0;
+}
+.App h1{
+  text-align: center;
+  color: #fff;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+  font-size: 72px;
+
+}
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12px
+}
+.form input[type="text"]{
+  padding:11px;
+  width: 81%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus{
+  outline:none;
+}
+.form button[type="submit"]{
+  background-color: #25316D;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 12px 22px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.todo-listItems{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.todo-item{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+.item-content{
+  width: 68%
+}
+.todo-item button{
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px
+}
+.todo-item button:focus{
+  outline:none
+}
+.update-item{
+  background-color: #1C6758;
+  color:#fff;
+}
+.delete-item{
+  background-color: red;
+  color:#fff;
+}
+.update-form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.update-new-input{
+  width: 80%;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  padding: 8px;
+  outline: none;
+}
+.update-new-btn{
+  background-color: darkorchid;
+  color: #fff;
+  cursor: pointer;
+}
